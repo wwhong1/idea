@@ -13,11 +13,11 @@
         {{ $slot }}
     </main>
 
-    <div x-data="{ show: true }">
+    {{-- <div x-data="{ show: true }">
         <p x-show="show">You can see me.</p>
 
         <button @click="show = false">Toggle</button>
-    </div>
+    </div> --}}
 
     @session('success')
         <div
